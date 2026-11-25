@@ -1,3 +1,4 @@
+
 {
   "cli": {
     "version": ">= 16.0.0",
@@ -7,13 +8,21 @@
     "preview": {
       "distribution": "internal",
       "android": {
+        "image": "latest",
         "buildType": "apk"
+      },
+      "ios": {
+        "image": "latest"
       }
     },
     "production": {
       "autoIncrement": true,
       "android": {
+        "image": "latest",
         "buildType": "app-bundle"
+      },
+      "ios": {
+        "image": "latest"
       }
     }
   }
