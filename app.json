@@ -1,7 +1,9 @@
+
 {
   "expo": {
     "name": "AirData GH",
     "slug": "airdata-gh-mobile",
+    "owner": "airbois-team",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
@@ -12,6 +14,11 @@
     },
     "android": {
       "package": "com.airdatagh.mobile"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0ec8c2ff-8242-4421-9fd9-54748e916caf"
+      }
     }
   }
 }
