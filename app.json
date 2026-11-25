@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "AirData GH",
+    "slug": "airdata-gh-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.airdatagh.mobile"
+    },
+    "android": {
+      "package": "com.airdatagh.mobile"
+    }
+  }
+}
